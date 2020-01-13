@@ -1,0 +1,73 @@
+name: Kingdoms
+main: com.siralpega.Kingdoms.Kingdoms
+version: 1.1
+api-version: 1.15
+description: Foundation for Kingdoms gameplay
+depend: [WorldEdit, WorldGuard, SimpleData]
+author: Alpega_
+commands:
+    addtown:
+      description: adds a town to the world
+      usage: /addtown
+      permission: king.towns.add
+      permission-message: §cYou don't have access to that command
+    removetown:
+      description: removes a town to the world
+      usage: /removetown
+      permission: king.towns.remove
+      permission-message: §cYou don't have access to that command
+    towninfo:
+      description: displays information of a town
+      usage: /towninfo
+      permission: king.towns.info
+      permission-message: §cYou don't have access to that command
+    addplot:
+      description: adds a plot
+      usage: /addplot
+      permission: king.towns.plots.add
+      permission-message: §cYou don't have access to that command
+    removeplot:
+      description: removes a plot
+      usage: /removeplot
+      permission: king.towns.plots.remove
+      permission-message: §cYou don't have access to that command
+    plotinvite:
+      description: invite a player to a plot
+      usage: /plotinvite
+      permission: king.towns.plots.invite
+      permission-message: §cYou don't have access to that command
+    plotjoin:
+      description: join a plot
+      usage: /plotjoin
+      permission: king.towns.plots.join
+      permission-message: §cYou don't have access to that command
+    plotleave:
+      description: leave a plot
+      usage: /plotleave
+      permission: king.towns.plots.leave
+      permission-message: §cYou don't have access to that command
+    skills:
+      description: view your player's skills
+      usage: /skills
+      permission: king.skills
+      permission-message: §cYou don't have access to that command
+    setskill:
+      description: set a player's skill
+      usage: /setskill
+      permission: king.setskill
+      permission-message: §cYou don't have access to that command
+    struct:
+      description: build structure
+      usage: /struct
+      permission: king.struct
+      permission-message: §cYou don't have access to that command
+    buildtown:
+      description: build town
+      usage: /buildtown
+      permission: king.towns.build
+      permission-message: §cYou don't have access to that command
+    buildplot:
+      description: build plot
+      usage: /buildplot
+      permission: king.towns.build
+      permission-message: §cYou don't have access to that command
