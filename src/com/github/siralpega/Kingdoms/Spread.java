@@ -11,12 +11,12 @@ import org.bukkit.block.Block;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
-/* TaintSpread
+/* Spread
  * Manages the spread of the "Tainted Land" in the world.
  * 
  * 
  */
-public class TaintSpread 
+public class Spread 
 {
 	private final Kingdoms plugin;
 	private Location[] spreadPoints;
